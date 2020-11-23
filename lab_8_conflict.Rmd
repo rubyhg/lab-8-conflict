@@ -13,7 +13,12 @@ library(tidyverse)
 ```{r}
 ggplot(data = storms, aes(x = pressure, y = wind)) +
 	geom_hex() +
+<<<<<<< HEAD
   scale_fill_gradient(low = "black", high = "yellow") +
   theme_bw()
+=======
+  scale_fill_gradient(low = "blue", high = "yellow") +
+  theme_classic()
+>>>>>>> 8f1271cb59296de3f53e1b4b68faf0bde5485b21
 
 ````
